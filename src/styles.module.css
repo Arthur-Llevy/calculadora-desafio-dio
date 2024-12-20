@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+html {
+  background: #000000c2;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+  height: 700px;
+  border: 1px solid;
+  position: absolute;
+  inset: 50% 0 0 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display {
+  background: #ffffffe8;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 16px 0 0;
+}
+
+.display span {
+  font-size: 26px;
+}
+
+.buttons {
+  height: 100%;
+  background: #222121;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.buttons button {
+  width: 90%;
+  height: 50%;
+  font-size: 24px;
+}
